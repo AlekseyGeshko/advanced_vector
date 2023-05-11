@@ -25,5 +25,12 @@
 + void PopBack() noexcept - удаляет последний элемент.  
 + iterator Erase(const_iterator pos) noexcept(std::is_nothrow_move_assignable_v<T>) - удаляет элемент на заданной позиции. O(n).  
 
+  
+# Используемый стек технологий
+1. placement new 
+2. RAII
+3. Идиома CopyAndSwap.
+4. 
+  
 # Системные требования
 Компилятор С++ с поддержкой стандарта C++17
