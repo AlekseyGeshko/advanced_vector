@@ -27,10 +27,13 @@
 
   
 # Используемый стек технологий
-1. placement new 
+1. Placement new 
 2. RAII
-3. Идиома CopyAndSwap.
-4. 
+3. Идиома CopyAndSwap
+4. Forwarding reference
+5. Move семантика
+6. variadic templates
+7. std::vector
   
 # Системные требования
 Компилятор С++ с поддержкой стандарта C++17
